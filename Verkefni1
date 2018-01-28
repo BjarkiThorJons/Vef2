@@ -1,0 +1,29 @@
+Verkefni 1
+ 
+1. 	Ubuntu server er linux vef þjónn sem notar ubuntu umhverfið
+ 
+2. 	Apache og Nginx eru bæði vefþjónar HTTP servers. Þeir geyma vefsíður og birta þær til notanda gegnum HTTP protocol.  Browser og server skiptast á upplýsingum gegunm HTTP. Apache er eldra en Nginx svo það er meira efni um Apache á netinu. Apache  getur tekið inn dynamic content en Nginx þarf hjálpar forrit til að geta gert það.
+
+3.Common Gateway Interface (CGI) 
+ Flestir vef þjónar styðja þetta interface því það er það elsta. Forrit sem nota CGI þurfa að vera byrjuð af netþjónum þannig að í hvert skipti er notaður nýr python interpreter sem hægir á vinslu
+
+Mod_python er server module notað af Apache sem notar python með netþjóninum. Mod_python var mikið notað á milli 1990-2000 en Mod_python var mep mikið af vandamálum.
+
+FastCgi og SCGI voru low level gateways sem reyndu að laga hraðan fyrir CGI
+
+Mod_wsgi er server module notað af Apache sem notar python með netþjóninum , mod_wsgi getur notað bæði multithreaded and multi process environments
+
+Gunicorn er python WSGI application server fyrir Unix
+
+uWsgi er application server
+
+5. Pip er pakka stjórnurar forrit sem er notað til að ná í og stjórna python hugbúnaðar pökkum 
+6. HTTP2 er mikið hraðari en HTTP 
+
+7. SSH er notað til að reka net þjóna yfir net sem er ekki trygt. SSH er cryptographic network protocol. SSH key lykill til að tengjast SSH serverum svo þú þarft ekki að nota lykilorð.
+
+8. Two Factor Authentication er auka upplýsingar sem notandinn á aðeins að hafa sem notandinn þarf að gefa upp til að skrá sig inn ásamt notanda nafni og lykilorði það getur verið t.d skilaboð í síma. Þegar þú notar Two Factor Authentication er erfiðara fyrir einhvern að brjótast inn á notandann þinn en það tekur líka lengri tíma að skrá þig inn.
+
+9. IPv6 er ný tegund af ip tölum. Þær eru mikið lengri en IPv4 sem við notum í dag IPv4 er með 4.3 milljarð IP tölur og IPv6 er með 3.4 * 1038
+
+10. 178.62.47.161
