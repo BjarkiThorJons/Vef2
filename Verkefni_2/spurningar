@@ -1,0 +1,7 @@
+1. 
+  a. MVC eða Model-view-controller er software architectural pattern sem er skiptir þiður kóðanum í þrjá búta Model, Controller og view.
+     Model geymir og stjörnar gögnunum, View birtir upplýsingar, Controller tekur inn og breytir gögnum fyrir view og model.
+  b. Ajax er vef tækni sem gefur þér gleift að senda gögn á milli browser og server í bakgrunninum án þess að reloada síðunni.
+     html5 websockets er TCP protocol sem getur sent gögn í browser án þess að fá beiðni svo það er hægt að senda gögn á milli
+     og halda tengingunni opni.
+  c.MV* eru öll frameworks sem nota model-view hönnunar mynstur eins og MVC MVP og MVVM
