@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bókalisti</title>
+	<link rel="stylesheet" type="text/css" href="./static/css/styles.css">
+</head>
+<body>
+	 {% for book in bokalisti %}
+    <div>
+      <a href="./book/{{ book.url }}">{{ book.nafn }}</a>
+    </div>
+  {% endfor %}
+</body>
+</html>
