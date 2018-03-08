@@ -1,0 +1,2 @@
+1.API eða Application Programing Interface er þegar kóðar hafa samskipti á hvaða hátt sem er.
+  Web API gerir það kleypt að framkvæma kóða á annari vél yfir netið
