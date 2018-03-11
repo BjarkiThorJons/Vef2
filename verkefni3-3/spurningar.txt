@@ -38,4 +38,4 @@
 
   body: requested resource
   
-  6.
+  6.OAouth er leið sem gerir internet notendum gleupt að leifa forritum og vefsíðum aðgang að upplýsingum af öðrum síðum án þess að nota    password
