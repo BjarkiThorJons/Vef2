@@ -21,4 +21,21 @@
        </customer>
     </pizza>
 3.OSI stöðlar samskipti milli tölva án tillits til hvað er í tölvunni
-4.
+4.Rest er http reglur um samskipti
+5.Request:
+         request line
+  header: optinal request headers
+  
+  blank line
+
+  body: additional information
+  
+  Response:
+          status line
+  header: optinal request headers
+  
+  blank line
+
+  body: requested resource
+  
+  6.
