@@ -1,2 +1,24 @@
-1.API eğa Application Programing Interface er şegar kóğar hafa samskipti á hvağa hátt sem er.
-  Web API gerir şağ kleypt ağ framkvæma kóğa á annari vél yfir netiğ
+1.API eÃ°a Application Programing Interface er Ã¾egar kÃ³Ã°ar hafa samskipti Ã¡ hvaÃ°a hÃ¡tt sem er.
+  Web API gerir Ã¾aÃ° kleypt aÃ° framkvÃ¦ma kÃ³Ã°a Ã¡ annari vÃ©l yfir netiÃ°
+2. JSON: 
+        {
+          "crust type": "original",
+          "toppings": ["cheese", "pepperoni", "garlic"],
+          "status": "cooking",
+          "customer": {
+            "name": "Jon",
+            "phone": 1234567
+          }
+        }
+   XML:
+    <pizza>
+       <crustType>original</crustType>
+       <toppings>[cheese,petrol,garlic]</toppings>
+       <status>cooking</status>
+       <customer>
+          <name>Jon</name>
+          <phone>1234567</phone>
+       </customer>
+    </pizza>
+3.OSI stÃ¶Ã°lar samskipti milli tÃ¶lva Ã¡n tillits til hvaÃ° er Ã­ tÃ¶lvunni
+4.
