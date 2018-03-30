@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style/semantic.css">
+	<title>Revenge of the Sith</title>
+	<link rel="shortcut icon" href="myndir/icon.png">
+</head>
+<body>
+  <div class="ui menu">
+  <div class="header item">
+    Star Wars: Episode III – Revenge of the Sith
+  </div>
+  		<a class="item" href="leikarar.html">
+    		Leikarar
+  		</a>
+  		<a class="item" herf="samband.html">
+   			Hafa samband
+  		</a>
+	</div>
+	<div class="ui form">
+  		<div class="field error">
+      		<label>E-mail</label>
+      		<input name="email" type="text" value="jack">
+    	</div>
+  		
+  		<div class="ui form">
+  			<div class="field">
+    		<label>Text</label>
+    		<textarea></textarea>
+  		</div>
+  		<div class="ui submit button">Submit</div>
+	</div>
+	</div>
+	
+	
+	<script type="text/javascript" src="style/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="style/semantic.min.js"></script>
+	<script type="text/javascript">
+	$('.type.example form')
+  .form({
+    on: 'blur',
+    fields: {
+      email: {
+        identifier  : 'email',
+        rules: [
+          {
+            type   : 'email',
+            prompt : 'Please enter a valid e-mail'
+          }
+        ]
+      }
+    }
+  })
+;
+
+	</script>
+</body>
+</html>
